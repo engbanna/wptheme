@@ -55,6 +55,12 @@ function my_theme_register_required_plugins() {
             'required'  => true,
             'force_activation'   => true,
         ),
+        array(
+            'name'        => 'Prevent Pages From Deleting',
+            'slug'        => 'prevent-pages-from-deleting',
+            'required'  => false,
+            'force_activation'   => false,
+        ),
 
 
 
