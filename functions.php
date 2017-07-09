@@ -4,8 +4,7 @@ define('ASSETS_URI', get_template_directory_uri(). '/');
 
 require_once('include/wrap_pagination.php');
 require_once('include/widgets.php');
-require_once('include/wp_bootstrap_navwalker.php'); 
-require_once('include/customize_loginpage.php'); 
+require_once('include/wp_bootstrap_navwalker.php');
 require_once('include/TGMPA-TGM/required_plugins.php'); 
 
  if ( is_rtl() ) { define('lang',"ar");}else{ define('lang',"en"); }
