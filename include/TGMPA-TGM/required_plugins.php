@@ -61,6 +61,12 @@ function my_theme_register_required_plugins() {
             'required'  => false,
             'force_activation'   => false,
         ),
+        array(
+            'name'        => 'Custom Dashboard Widgets',
+            'slug'        => 'custom-dashboard-widgets',
+            'required'  => false,
+            'force_activation'   => false,
+        ),
 
 
 
